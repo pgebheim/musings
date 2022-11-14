@@ -20,6 +20,7 @@ module.exports = {
       twitter: `paulgebheim`,
     },
   },
+  pathPrefix: '__PATH_PREFIX__',
   plugins: [
     `gatsby-plugin-image`,
     {
@@ -55,6 +56,13 @@ module.exports = {
           `gatsby-remark-prismjs`,
         ],
       },
+    },
+    {
+      resolve: `gatsby-plugin-runtime-path-prefix`,
+      options: {
+        prefix: `__PATH_PREFIX__`,
+        pattern: /^(\/(?:ipfs|ipns)\/[^/]+)/
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

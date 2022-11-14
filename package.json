@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "musings-pgpg-io",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "pgpg.io musings blog",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Paul Gebheim <pg@pgpg.io>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -14,6 +14,7 @@
     "gatsby-plugin-feed": "^5.0.0",
     "gatsby-plugin-image": "^3.0.0",
     "gatsby-plugin-manifest": "^5.0.0",
+    "gatsby-plugin-runtime-path-prefix": "^2.0.1",
     "gatsby-plugin-sharp": "^5.0.0",
     "gatsby-remark-images": "^7.0.0",
     "gatsby-remark-prismjs": "^7.0.0",
@@ -28,14 +29,14 @@
   "devDependencies": {
     "prettier": "^2.7.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/pgebheim/musings/#readme",
   "keywords": [
     "gatsby"
   ],
   "license": "0BSD",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/pgebheim/musings.git"
   },
   "scripts": {
     "build": "gatsby build",
